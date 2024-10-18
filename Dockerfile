@@ -35,7 +35,7 @@ ENV YT2009_PORT=80 \
     YT2009_DISABLEMASTER=false \
     YT2009_RATELIMIT=false \
     YT2009_AC=true \
-    YT2009_GDATA_AUTH=true
+    YT2009_GDATA_AUTH=false
 
 RUN npm install && \
     ln -s /data/tvdata.json back/tvdata.json && \
